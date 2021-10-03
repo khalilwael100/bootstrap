@@ -1,0 +1,192 @@
+.logo{
+    height: 100px;
+    margin-left: 430px;
+}
+@media(max-width: 767px){
+    .logo{
+        height: 60px;
+        margin-left: 150px;
+    }
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .logo{
+        height: 80px;
+        margin-left: 230px;
+    }
+
+}
+.navbar{
+    margin: -15px;
+}
+.interface{
+    height: 600px;
+}
+.carousel{
+    height: 600px;
+}
+.carousel img{
+    height: 600px;
+    background-size: cover;
+}
+.interface .travel{
+    width: 330px;
+    height: 150px;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));
+    margin: -210px 0 0 350px;
+}
+@media(max-width: 767px){
+    .interface .travel{
+        width: 250px;
+        height: 150px;
+        background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));
+        margin: -210px 0 0 80px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .interface .travel{
+        width: 330px;
+        height: 150px;
+        background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));
+        margin: -210px 0 0 130px;
+    }
+
+}
+.interface .travel .btn{
+    width: 110px;
+}
+.row .btn1{
+    width: 110px;
+    border: 0px;
+}
+.row .icons{
+    float: right;
+    color: rgb(112, 112, 112);
+}
+.row .left .btn{
+    width: 140px;
+    box-shadow: 0px 5px 10px rgb(182, 182, 182);
+}
+.row .p1{
+    color: gray;
+}
+.row .right .card{
+    height: 510px;
+    box-shadow: 0px 5px 15px rgb(182, 182, 182);
+}
+.row .right img{
+    width: 150px;
+    height: 150px;
+    margin: -20px auto;
+}
+@media(max-width: 767px){
+    .row .right img{
+        width: 70px;
+        height: 70px;
+        margin: -20px auto;
+    }
+    .row .right .card .card-body{
+        overflow: auto;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .row .right img{
+        width: 100px;
+        height: 100px;
+        margin: -20px auto;
+    }
+    .row .right .card .card-body{
+        overflow: auto;
+    }
+}
+.row .right .card .card-body p{
+    width: 100%;
+}
+.row .right .card .card-body a{
+    text-decoration: underline;
+}
+.row .right .card .fa{
+    color: black;
+    width: 20px;
+}
+.search-icon{
+    text-decoration: none;
+    color: black;
+}
+.row .right .subscribe{
+    height: 200px;
+    background: rgb(27, 37, 46);
+}
+.row .right .subscribe h4{
+    font-size: 18px;
+}
+@media(max-width: 767px){
+    .row .right .subscribe h4{
+        font-size: 14px;
+    }
+    
+}
+.row .right .cards{
+    height: 110px;
+    background: url(../image/category-1-400x150.jpg);
+}
+
+.row .right .cards1{
+    height: 110px;
+    background: url(../image/category-2-400x150.jpg);
+}
+
+.row .right .cards2{
+    height: 110px;
+    background: url(../image/category-3-400x150.jpg);
+}
+
+.row .right .cards3{
+    height: 110px;
+    background: url(../image/category-4-400x150.jpg);
+}
+.row .left2 .btn{
+    box-shadow: 0px 5px 10px rgb(182, 182, 182);
+}
+.row .center .btn{
+    box-shadow: 0px 5px 10px rgb(182, 182, 182);
+}
+.row .right2 img{
+    width: 80px;
+    float: left;
+}
+.row .right2 .discover{
+    height: 500px;
+    background: url(../image/advertise-1-400x500.jpg);
+}
+.row .right2 .discover .button{
+    margin: 430px auto;
+}
+.container .row .end{
+    height: 55px;
+    background: rgb(34, 43, 51);
+}
+@media(min-width: 0px) and (max-width: 991px){
+    .container .row .end{
+        height: 35px;
+        background: rgb(34, 43, 51);
+    }
+}
+.row .end .icon i{
+    color: white;
+}
+
+.icons{
+    font-size: 14px;
+}
+@media(max-width: 767px){
+    .icons{
+        font-size: 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .icons{
+        font-size: 12px;
+    }
+}
+
